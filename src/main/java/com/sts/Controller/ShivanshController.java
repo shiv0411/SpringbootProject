@@ -17,13 +17,13 @@ public class ShivanshController {
 	@Autowired
 	private ShivanshService shivanshservice;
 	
-	@PostMapping("/shivansh")
-	public Shivansh shivansh(@RequestBody ShivanshService request) {
-		
-	    Shivansh result =  shivanshservice.save(request.getShivansh());
-	    
-	    return result;
-	}
+//	@PostMapping("/shivansh")
+//	public Shivansh shivansh(@RequestBody ShivanshService request) {
+//		
+//	    Shivansh result =  shivanshservice.save(request.getShivansh());
+//	    
+//	    return result;
+//	}
 	
 	@GetMapping("/shivansh")
 	public Float findAllshivansh(){
